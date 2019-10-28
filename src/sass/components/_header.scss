@@ -1,0 +1,19 @@
+.header{  
+    font-size: 1.8rem;
+    border: 1px solid $color-black;
+    border-bottom: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+            
+    &__label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 7rem;
+        cursor: pointer;
+    }
+
+}
