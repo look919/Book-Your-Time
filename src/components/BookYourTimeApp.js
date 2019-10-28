@@ -16,7 +16,7 @@ export default class BookYourTimeApp extends React.Component {
                 <Header />
                 <main className="home-page">
                     <h1 className="home-page__heading-primary">No idea what to do?</h1>
-                    <p className="home-page__text">Looking for something to read, watch or listen to but you have no idea what? You couldn't find a better place to look for it. Just choose what you want and i will find something for you</p>
+                    <p className="home-page__text">Looking for something to read but you have no idea what? You couldn't find a better place to look for it. Just choose category then click the button bellow and i will find something for you, I guarantee you won't regret it!</p>
                 </main>
             
             
