@@ -1,0 +1,26 @@
+.button{       
+    position: relative;
+    z-index: 20;   
+
+    border: 2px solid $color-default;
+    border-radius: 10%;
+    margin-bottom: 7rem;
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;       
+    font-weight: 700;
+    letter-spacing: .1rem;
+    transition: all .2s;
+
+    padding: 1rem 4.5rem;
+    background-image: linear-gradient(to left top, $color-background-1,$color-background-2);
+
+    &:hover{
+        transform: scale(1.05);
+    }
+    &:active{
+        transform: translateY(-.3rem);
+    }
+    &:focus{
+        outline: none;
+    }
+}
