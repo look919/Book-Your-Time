@@ -3828,6 +3828,11 @@ mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkd
   dependencies:
     minimist "0.0.8"
 
+modal@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/modal/-/modal-1.2.0.tgz#3da970f622dc8c640b9d0732143f800dafba8d63"
+  integrity sha1-Palw9iLcjGQLnQcyFD+ADa+6jWM=
+
 moment@^2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
