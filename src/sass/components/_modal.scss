@@ -40,6 +40,7 @@
     &__content{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 5rem;
     }
     
     
@@ -74,6 +75,11 @@
     &__photo{
         width: 30%;
         padding: .7rem;
+    }
+
+    &__buttons{
+        display: flex;
+        justify-content: space-between;
     }
 
 }

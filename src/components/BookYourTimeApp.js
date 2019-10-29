@@ -34,8 +34,6 @@ export default class BookYourTimeApp extends React.Component {
 
     render(){
 
-        console.log(this.state.bookDrawn)
-
         return (
             <div className="content">
                 <Header />
@@ -46,7 +44,7 @@ export default class BookYourTimeApp extends React.Component {
                     <BookModal 
                     bookDrawn={this.state.bookDrawn}
                     handleClearSelectedOption={this.handleClearSelectedOption}
-                    
+                    handleRandomPick={this.handleRandomPick}
                     />
                 </main>
                 

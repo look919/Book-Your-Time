@@ -3,12 +3,6 @@ import Modal from 'react-modal'
 
 const BookModal = (props) => {
     
-    
-    if(props.bookDrawn !== undefined){
-        console.log(props.bookDrawn.author)
-    }
-    
-    
         return(
             <Modal
             isOpen={!!props.bookDrawn}
@@ -32,6 +26,11 @@ const BookModal = (props) => {
                 <div className="modal__photo">
                 { props.bookDrawn !== undefined && <img src={props.bookDrawn.url} alt="book's photo"/> }
                 </div>
+            </div>
+            <div className="modal__buttons">
+            <button onClick={props.handleClearSelectedOption} className="button button--modal">Thanks</button>
+            <button onClick={props.handleRandomPick} className="button button--modal">Find me another one</button>
+
             </div>
             
             
