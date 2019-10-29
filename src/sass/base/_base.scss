@@ -25,6 +25,13 @@ body{
 }
 button {
     cursor: pointer;
+
+    &:hover{
+        transform: scale(1.05), translateX(-.5rem);
+    }
+    &:active{
+        outline: none;
+    }
 }
 button:disabled{
     cursor: default;
