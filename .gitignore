@@ -1,7 +1,7 @@
-/node_modules
-/public/bundle.js
-/public/bundle.js.map
-/public/styles.css
-/public/styles.css.map
-/public/12b7d28ead97f52230b92bee0a0030ad.png
-/public/88fd7e839a5054e5a2095f8d25053b59.jpg
+node_modules/
+public/bundle.js
+public/bundle.js.map
+public/styles.css
+public/styles.css.map
+public/12b7d28ead97f52230b92bee0a0030ad.png
+public/88fd7e839a5054e5a2095f8d25053b59.jpg
