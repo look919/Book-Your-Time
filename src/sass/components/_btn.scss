@@ -26,7 +26,12 @@
 
 
     &--modal{
-    background-image: linear-gradient(to right bottom, $color-background-1,$color-background-2);
+        background-image: linear-gradient(to right bottom, $color-background-1,$color-background-2);
+        margin-bottom: 2rem;
 
+        @media only screen and(max-width: $bp-largest){
+            font-size: 1.4rem;
+            padding: 1rem 2rem;
+        }
     }
 }

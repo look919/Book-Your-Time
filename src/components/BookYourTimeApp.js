@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import BookModal from './BookModal'
-import database from '../firebase/firebase'
+import {database, storage} from '../firebase/firebase'
 
 export default class BookYourTimeApp extends React.Component {
     state={
@@ -14,6 +14,7 @@ export default class BookYourTimeApp extends React.Component {
             snapshot.forEach((childSnapshot) => {
                 if(childSnapshot.val().id === randomNum){     
                     this.handleSetState(childSnapshot.val())
+                    console.log(childSnapshot.val())
                 }
             })
         })
@@ -22,7 +23,7 @@ export default class BookYourTimeApp extends React.Component {
         this.setState(()=> ({
             bookDrawn: {
                 ...val
-            }
+            },
         }))
     }
     handleClearSelectedOption = () =>{

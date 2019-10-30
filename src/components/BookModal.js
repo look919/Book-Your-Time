@@ -24,7 +24,7 @@ const BookModal = (props) => {
                     </div>
                 </div>
                 <div className="modal__photo">
-                { props.bookDrawn !== undefined && <img src={props.bookDrawn.url} alt="book's photo"/> }
+                { props.bookDrawn !== undefined && <img src={props.bookDrawn.url} width='100%' alt="book's photo"/> }
                 </div>
             </div>
             <div className="modal__buttons">

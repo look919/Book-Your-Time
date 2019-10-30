@@ -1,6 +1,5 @@
 import * as firebase from 'firebase'
 
-
 const firebaseConfig = {
   apiKey: "AIzaSyAT1bggYtZw7lYp4PUcTVo3IOLm9M0n0hg",
   authDomain: "bookyourtime-bd403.firebaseapp.com",
@@ -16,8 +15,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database()
 
-
-export {firebase, database as default}
+export {firebase, database}
 
 
 

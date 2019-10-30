@@ -7,7 +7,11 @@
     align-items: flex-start;
     position: absolute;
     z-index: 300;
-    padding-top: 20rem;
+    //padding-top: 15rem;
+
+    @media only screen and (max-width: $bp-large){
+        padding-top: 5rem;
+    }
    
     
     transition: all .2s ease-in-out;
@@ -26,6 +30,10 @@
     width: 70rem;
     background-image: linear-gradient(to left top, $color-background-1, $color-background-2);
     
+    @media only screen and(max-width: $bp-large){
+        width: 75%;
+    }
+
     padding: 3rem;
     color: $color-white;
     outline: none;
@@ -45,10 +53,10 @@
     
     
     &__info{
-        word-break: break-all;
         font-size: 2rem;
         padding: .7rem;
         width: 70%;
+
 
         &__title{
             font-size: 2.5rem;
@@ -75,12 +83,15 @@
     &__photo{
         width: 30%;
         padding: .7rem;
+
     }
 
     &__buttons{
         display: flex;
         justify-content: space-between;
-        padding: 1rem 5rem;
+        padding: 0rem 5rem;
+
+        
     }
 
 }
