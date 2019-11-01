@@ -25,13 +25,13 @@ export {firebase, database}
 
 
 
-// firebase.database().ref('books').push({
-//   id: 10,
-//   title: 'Les Misérables',
-//   releaseDate: '1862',
-//   author: 'Victor Hugo',
-//   description: 'Examining the nature of law and grace, the novel elaborates upon the history of France, the architecture and urban design of Paris, politics, moral philosophy, antimonarchism, justice, religion, and the types and nature of romantic and familial love. Les Misérables has been popularized through numerous adaptations for film, television and the stage, including a musical.',
-//   url: 'https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables#/media/File:Monsieur_Madeleine_par_Gustave_Brion.jpg'
-// })
+firebase.database().ref('books').push({
+  id: 20,
+  title: 'War and Peace',
+  releaseDate: '1865',
+  author: 'Leo Tolstoy',
+  description: 'The novel chronicles the French invasion of Russia and the impact of the Napoleonic era on Tsarist society through the stories of five Russian aristocratic families. Portions of an earlier version, titled The Year 1805, were serialized in The Russian Messenger from 1865 to 1867, then published in its entirety in 1869.',
+  url: 'https://firebasestorage.googleapis.com/v0/b/bookyourtime-bd403.appspot.com/o/WarAndPeace.jpg?alt=media&token=096e8b9c-9936-4a9c-94c2-de3e3c94b873'
+})
 
 

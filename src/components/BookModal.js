@@ -29,7 +29,7 @@ const BookModal = (props) => {
             </div>
             <div className="modal__buttons">
             <button onClick={props.handleClearSelectedOption} className="button button--modal">Thanks</button>
-            <button onClick={props.handleRandomPick} className="button button--modal">Find me another one</button>
+            <button onClick={props.handleRandomPick} className="button button--modal button--modal--active">Find me another one</button>
 
             </div>
             

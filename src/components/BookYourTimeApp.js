@@ -8,7 +8,7 @@ export default class BookYourTimeApp extends React.Component {
         bookDrawn: undefined
     }
     handleRandomPick = () =>{
-        const randomNum = Math.floor(Math.random() * 10+1)
+        const randomNum = Math.floor(Math.random() * 20+1)
         
         database.ref('books').on('value',(snapshot)=>{
             snapshot.forEach((childSnapshot) => {
