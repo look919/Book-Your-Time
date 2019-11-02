@@ -17,7 +17,7 @@ const BookModal = (props) => {
                 { props.bookDrawn !== undefined && <h2 className="modal__info__title">{props.bookDrawn.title}</h2> }
                     <div className="modal__info__subtitle">
                         { props.bookDrawn !== undefined && <p className="modal__info__subtitle--author">Author: {props.bookDrawn.author}</p> }
-                        { props.bookDrawn !== undefined && <p className="modal__info__date">Release year: {props.bookDrawn.releaseDate}</p> }
+                        { props.bookDrawn !== undefined && <p className="modal__info__subtitle--date">Release year: {props.bookDrawn.releaseDate}</p> }
                     </div>
                     <div className="modal__info__description">
                         { props.bookDrawn !== undefined && <p className="modal__info__date">{props.bookDrawn.description}</p> }

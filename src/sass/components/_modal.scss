@@ -82,6 +82,11 @@
             font-weight: 300;
             margin-bottom: 2rem;
             margin-top: 3rem;
+
+            @media only screen and(max-width: $bp-small){
+                margin-top: 1.5rem;
+                padding: 0;
+            }
             
         }
 
@@ -93,6 +98,17 @@
 
             &--author{
                 margin-right: 1.5rem;
+
+                @media only screen and(max-width: $bp-small){
+                    margin-right: 0;
+                }
+            }
+
+            &--date{
+                @media only screen and(max-width: $bp-small){
+                    justify-self: flex-end;
+                    text-align: right;
+                }
             }
         }
 
@@ -112,7 +128,7 @@
         padding: .7rem;
 
         @media only screen and(max-width: $bp-small){
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
             padding: 0;
         }
     }
