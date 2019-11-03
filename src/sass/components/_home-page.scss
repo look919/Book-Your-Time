@@ -26,6 +26,10 @@
         font-size: 3.5rem;
         margin-bottom: 7rem;
         transform: skewX(-20deg);
+
+        @media only screen and(max-width: $bp-small){
+            font-size: 2.8rem;
+        }
         
     }
     &__text{
