@@ -11,10 +11,10 @@
     transition: all .2s;
 
     @media only screen and(max-width: $bp-small){
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
-    padding: 1rem 4.5rem;
+    padding: 1.5rem 4.5rem;
     background-image: linear-gradient(to left top, $color-background-1,$color-background-2);
 
     &:hover{
@@ -37,8 +37,7 @@
             padding: 1rem 2rem;
         }
         @media only screen and(max-width: $bp-small){
-            font-size: 1.3rem;
-            padding: .5rem 1rem;
+            padding: .8rem 1.2rem;
         }
     }
 }
