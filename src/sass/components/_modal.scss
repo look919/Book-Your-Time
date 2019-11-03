@@ -4,7 +4,6 @@
 .ReactModalPortal .ReactModal__Overlay {
     display: flex;
     justify-content: center;
-    align-items: center;
     position: absolute;
     z-index: 300;
 
@@ -56,6 +55,7 @@
     &__content{
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin-bottom: 5rem;
 
         @media only screen and(max-width: $bp-small){
@@ -82,10 +82,9 @@
             font-size: 3rem;
             font-weight: 400;
             margin-bottom: 2rem;
-            margin-top: 3rem;
             
             @media only screen and(max-width: $bp-small){
-                margin-top: 1.5rem;
+
                 padding: 0;
                 text-align: center;
             }
