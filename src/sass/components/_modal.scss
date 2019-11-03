@@ -99,12 +99,15 @@
             font-weight: 400;
             margin-bottom: 3.5rem;
 
+            @media only screen and(max-width: $bp-small){
+                margin-bottom: 1.5rem;
+            }
+
             &--author{
                 margin-right: 1.5rem;
 
                 @media only screen and(max-width: $bp-small){
                     font-size: 1.2rem;
-                    margin-bottom: 1.5rem;
                 }
             }
 
