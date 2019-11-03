@@ -30,6 +30,8 @@ body{
     background-image: linear-gradient(to right bottom,
     rgba($color-background-1,.9),
     rgba($color-background-2,.9));
+    min-height: 100vh;
+    
 
     padding: 2rem 5rem;
 }
